@@ -1,0 +1,84 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-repeat: no-repeat;
+	background: #DEE9EB;
+	background-size: 18px;
+}
+
+.navbar{
+	
+	width: 200px;
+	position: relative;
+	padding: 0px;
+	margin: 5px;
+	
+}
+
+.navbar li{
+
+	list-style-type: none;
+	height: 60px;
+	background: #ECDCDC;
+	position: relative;
+	border: 1px solid white;
+}
+
+.navbar a{
+	
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Bookman Old Style;
+	line-height: 60px;
+	transition: all 0.4s ease-in-out;
+	display: block;
+
+	
+	height: 100%;
+	color: #CE9C9D;
+	margin-left: 20px;
+	
+}
+
+.navbar li:hover >a{
+	
+	padding: 5px;
+	cursor: pointer;
+	color: #000;
+}
+
+.navbar li:hover{
+	
+	opacity: 0.4;
+}
+
+.header{
+	
+	font-family: Bookman Old Style;
+	font-weight: bold;
+	font-size: 36px;
+	color: #355C7D;
+}
+
+.register{
+	
+	font-family: Bookman Old Style;
+	font-size: 18px;
+	color: #355C7D;
+	background-color: #DEE9EB;
+	height: 100%;
+}
+
+.register a{
+	
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+
+.texts {
+font:20px "Bookman Old Style",san-serif;
+}
